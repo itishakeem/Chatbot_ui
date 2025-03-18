@@ -1,0 +1,20 @@
+[project]
+name = "streaming"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdul Hakeem", email = "121229472+itishakeem@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.4.1",
+    "openai-agents>=0.0.4",
+]
+
+[project.scripts]
+streaming = "streaming:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
